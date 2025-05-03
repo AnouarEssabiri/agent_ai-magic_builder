@@ -1,0 +1,31 @@
+graph LR
+
+    A[Ideation] --> B(Planification)
+    B --> C{Lancement}
+    C --> D[Expansion]
+    subgraph "Compétences clés"
+        E[Patience]
+        F[Innovation]
+        G[Résilience]
+        H[Flexibilité]
+    end
+    E --> C
+    F --> C
+    G --> C
+    H --> C
+    subgraph "Défis et Risques"
+        I[Instabilité Financière]
+        J[Concurrence]
+        K[Charge de travail]
+    end
+    I --> C
+    J --> C
+    K --> C
+    subgraph "Avantages"
+        L[Liberté]
+        M[Réalisations]
+        N[Flexibilité]
+    end
+    C --> L
+    C --> M
+    C --> N

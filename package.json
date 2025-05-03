@@ -1,0 +1,43 @@
+{
+  "name": "mab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx example-usage.ts",
+    "dev": "tsx watch example-usage.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "franc": "^6.2.0",
+    "jszip": "^3.10.1",
+    "langs": "^2.0.0",
+    "llamaindex": "^0.10.3",
+    "mammoth": "^1.9.0",
+    "multer": "^1.4.5-lts.2",
+    "node-fetch": "^3.3.2",
+    "node-llama-cpp": "^3.7.0",
+    "pdf-parse": "^1.1.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/langs": "^2.0.5",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.15.3",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/xml2js": "^0.4.14",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
